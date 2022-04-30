@@ -1,0 +1,14 @@
+# Declaración de variables
+vector_numeros = []
+valor = 0
+elementos = 0
+can_Ele = 0
+
+#Procesos
+can_Ele = int (input("Digite cantidad de elementos: "))
+for valor in range(can_Ele):
+  elementos = int(input("Digite valor a almacenar"))
+  vector_numeros.append(elementos)
+print("Elementos del vector: ",vector_numeros)
+vector_numeros.reverse()
+print("Vector invertido: ",vector_numeros)
